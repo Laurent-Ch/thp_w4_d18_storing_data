@@ -50,7 +50,7 @@ class Scrapper
 
   # Source: https://stackoverflow.com/questions/2083570/possible-to-access-the-index-in-a-hash-each-loop
   def save_as_spreadsheet(raw_data)
-    session = GoogleDrive::Session.from_config('db/config.json')
+    session = GoogleDrive::Session.from_config('other_files/.env')
     ws = session.spreadsheet_by_key('1ycx7kI41K6XXSHVkO8ZgWW8WFGFw1mWBJBDFNsuwdGA').worksheets[0]
     raw_data.each_with_index do |(key, value), index|
       ws[index + 1, 1] = key
