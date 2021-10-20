@@ -5,4 +5,6 @@ gem 'pry'
 gem 'rubocop'
 gem 'nokogiri'
 gem 'dotenv'
-gem "json"
+gem 'json'
+gem 'google_drive'
+gem 'csv'

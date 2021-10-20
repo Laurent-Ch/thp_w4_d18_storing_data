@@ -1,5 +1,7 @@
 require_relative '../lib/app/scrapper'
 
+# NB: This version is obsolete since the change of the original scrapper file.
+
 describe "getting mail address with city url" do
   it "should return the mail address matching the city Goussainville" do
     expect(get_townhall_email("http://annuaire-des-mairies.com/95/goussainville.html")).to eq("maire@ville-goussainville.fr")
