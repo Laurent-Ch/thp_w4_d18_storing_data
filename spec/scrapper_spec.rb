@@ -1,4 +1,4 @@
-require_relative '../lib/scraper'
+require_relative '../lib/app/scrapper'
 
 describe "getting mail address with city url" do
   it "should return the mail address matching the city Goussainville" do
