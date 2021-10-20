@@ -1,0 +1,1 @@
+The aim of this project is to learn how to store data in three different formats: JSON, Google Spreadsheet and csv.
